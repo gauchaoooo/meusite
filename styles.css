@@ -64,32 +64,3 @@ html, body {
     transition: 0.15s;
 }
 
-.twitter {
-    background-color: none;
-    border: 2px solid #1DA1F2;
-}
-
-.twitter:hover {
-    background-color: #1DA1F2;
-    transition: 0.15s;
-}
-
-.youtube {
-    background-color: none;
-    border: 2px solid #FF0000;
-}
-
-.youtube:hover {
-    background-color: #FF0000;
-    transition: 0.15s;
-}
-
-.linkedin {
-    background-color: none;
-    border: 2px solid #1B455A;
-}
-
-.linkedin:hover {
-    background-color: #1B455A;
-    transition: 0.15s;
-}
