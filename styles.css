@@ -65,3 +65,14 @@ html, body {
 }
 
 
+.Discord {
+    background-color: none;
+    border: 2px solid #E1306C;
+}
+
+.Discord:hover {
+    background-color: #E1306C;
+    transition: 0.15s;
+}
+
+
