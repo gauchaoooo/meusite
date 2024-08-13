@@ -64,12 +64,12 @@ html, body {
     transition: 0.15s;
 }
 
-.gauchooo {
+.discord {
     background-color: none;
     border: 2px solid #1DA1F2;
 }
 
-.gauchooo:hover {
+.discord:hover {
     background-color: #1DA1F2;
     transition: 0.15s;
 }
