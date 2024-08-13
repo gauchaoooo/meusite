@@ -1,144 +1,39 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <title>Sr Dev Gaucho</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meu perfil</title>
 </head>
-
 <body>
-
-    <nav>
-        <div class="logo">
-            <img src="assets/logo.png">
-            <a href="https://youtube.com/@AsmrProg" target="_blank">Sr Gaucho</a>
-        </div>
-        <ul>
-            <li><a href="#main">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#feedback">Feedback</a></li>
-        </ul>
-        <button>Contact Me</button>
-        <button id="menuButton" onclick="openMenu()">
-            <i class='bx bx-menu'></i>
-        </button>
-    </nav>
-
-    <div class="main" id="main">
-        <div class="left">
-            <h5>Olá, eu sou SR Gaucho</h5>
-            <h3>Eu sou <span>Desenvolvedor de Front-End</span> Aprendiz.</h3>
-            <!-- <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique.
-            </p> -->
-            <!-- <button>Entre em contato</button> -->
-        </div>
-        <div class="right">
-            <img src="assets/header-img.png">
-        </div>
+    <div class="profile-picture">
+        <img src="./logoGauchoDev001.png" alt="Foto de perfil">
     </div>
 
-    <div class="skills" id="skills">
-        <h5>Minhas habilidades</h5>
-        <h3>Minha especialidade</h3>
-        <div class="skill-items">
-            <div class="item">
-                <div class="icon"><i class='bx bx-directions'></i></div>
-                <h4>Estratégia e Direção</h4>
-                <p>
-                    Sou Desenvolvedor de Front-End.
-                </p>
-            </div>
-            <!-- <div class="item">
-                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
-                <h4>Branding & Logo</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                    tristique.
-                </p>
-            </div> -->
-            <!-- <div class="item">
-                <div class="icon"><i class='bx bxl-figma'></i></i></div>
-                <h4>UI & UX Design</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                    tristique.
-                </p>
-            </div> -->
-            <!-- <div class="item">
-                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
-                <h4>Webflow Coding</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                    tristique.
-                </p> -->
-            </div>
-        </div>
+    <div class="title">
+        <h3>SR Gaucho | 16 y</h3>
+        <p><i>Desenvolvedor Front-end</i></p>
     </div>
 
-    <div class="about" id="about">
-        <div class="left">
-            <img src="assets/about-img.png">
-        </div>
-        <div class="right">
-            <h5>Sobre</h5>
-            <h3>Sobre mim</h3>
-            <p>
-                Sou Desenvolvedor de Front-End
-            </p>
-        </div>
+    <div class="description">
+        <p>Curto programar.</p>
     </div>
 
-    <div class="portfolio" id="portfolio">
-        <div class="header">
-            <div class="info">
-                <h5>Projetos Recentes</h5>
-                <h3>Meu Portfólio</h3>
-            </div>
-            <button><i class='bx bxl-youtube'></i> Visite meu Youtube</button>
+    <div class="social-media">
+
+        <div class="button">
+            <a href="https://www.instagram.com/07eliezerr/?hl=pt-br" target="_blank" class="instagram">
+                Instagram
+            </a>
         </div>
 
-        <div class="portfo-items">
-            <div class="item">
-                <img src="assets/sc-1.jpg">
-                <div class="info">
-                    <h4>Portfolio #1</h4>
-                    <p>
-                        Meu projeto.
-                    </p>
-                    <a href="https://www.youtube.com/watch?v=QBOYXA08Z9c">Ver no Youtube <i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-            <!-- <div class="item">
-                <img src="assets/sc-2.jpg">
-                <div class="info">
-                    <h4>Simple Blog Page</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
-                    </p>
-                    <a href="#">View in Youtube <i class='bx bx-link-external'></i></a>
-                </div>
-            </div> -->
-            <!-- <div class="item"> -->
-                <!-- <img src="assets/sc-3.jpg">
-                <div class="info">
-                    <h4>Animated Nav</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
-                    </p>
-                    <a href="#">View in Youtube <i class='bx bx-link-external'></i></a>
-                </div> -->
-            </div>
+        <div class="button">
+            <a href="https://discord.gg/dKDhHB8z" target="_blank" class="discord">
+                Discord
+            </a>
         </div>
 
     </div>
-    <script src="script.js"></script>
 </body>
-
 </html>
