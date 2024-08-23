@@ -73,3 +73,13 @@ html, body {
     background-color: #1DA1F2;
     transition: 0.15s;
 }
+
+. projeto {
+    background-color: none;
+    border: 2px solid #1DA1F2;
+}
+
+. projeto:hover {
+    background-color: #1DA1F2;
+    transition: 0.15s;
+}
