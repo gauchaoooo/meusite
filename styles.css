@@ -74,12 +74,12 @@ html, body {
     transition: 0.15s;
 }
 
-. projeto {
+.projeto {
     background-color: none;
     border: 2px solid #1DA1F2;
 }
 
-. projeto:hover {
+.projeto:hover {
     background-color: #1DA1F2;
     transition: 0.15s;
 }
